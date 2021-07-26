@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>checkboxes.html</title>
+    <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+  <h1>What do you want on your pizza?</h1>
+  <form action="">
+    <fieldset>
+      <input type="checkbox"
+             id="chkPepperoni"
+             value="pepperoni" />
+      <label for="chkPepperoni">Pepperoni</label>
+      <input type="checkbox"
+             id="chkMushroom"
+             value="mushrooms" />
+      <label for="chkMushroom">Mushrooms</label>
+      <input type="checkbox"
+             id="chkSausage"
+             value="sausage" />
+      <label for="chkSausage">Sausage</label>
+      <button type="button"
+              onclick="order()">
+        Order Pizza
+      </button>
+    </fieldset>
+  </form>
+  <h2>Your order:</h2>
+  <div id="output">
+  </div>
+</body>
+
+</html>
