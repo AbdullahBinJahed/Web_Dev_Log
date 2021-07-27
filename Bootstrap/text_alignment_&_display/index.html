@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>text_alignment_&_display.html</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <div style="margin-top: 50px;"></div>
+  <div class="container">
+    
+    <!-- JUSTIFY -->
+    <p style="text-align: justify; text-justify: inter-word;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non vehicula dolor. Phasellus hendrerit malesuada sollicitudin. Nam eu diam est. Nulla id libero velit. Mauris sed est ac libero lobortis euismod. Vestibulum bibendum lorem leo, in interdum ipsum efficitur nec. Curabitur bibendum sed tellus vitae tincidunt. Donec elementum est lectus, in bibendum libero placerat id. Morbi quam nunc, commodo ac mauris et, scelerisque ornare justo.</p>
+    
+    <br /><br />
+    
+    <!-- ALIGNMENT -->
+    <p class="text-start">Start aligned text on all viewport sizes.</p>
+    <p class="text-center">Center aligned text on all viewport sizes.</p>
+    <p class="text-end">End aligned text on all viewport sizes.</p>
+    
+    <!-- RESPONSIVE ALIGNMENT -->
+    <p class="text-sm-center">Center aligned text on viewports sized SM (576 px) or wider.</p>
+    <p class="text-md-center">Center aligned text on viewports sized MD (768 px) or wider.</p>
+    <p class="text-lg-center">Center aligned text on viewports sized LG (992 px) or wider.</p>
+    <p class="text-xl-center">Center aligned text on viewports sized XL (1200 px) or wider.</p>
+    
+    <hr />
+    
+    <!-- VERTICAL ALIGNMENT -->
+    
+    <table style="height: 100px;">
+      <tbody>
+        <tr>
+          <td class="align-baseline">baseline</td>
+          <td class="align-top">top</td>
+          <td class="align-middle">middle</td>
+          <td class="align-bottom">bottom</td>
+          <td class="align-text-top">text-top</td>
+          <td class="align-text-bottom">text-bottom</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <!-- TURN BLOCK TO INLINE -->
+    <h1 class="d-inline bg-success">Hello</h1>
+    <h1 class="d-inline bg-success">Good Bye</h1>
+    
+    <br /><br />
+    
+    <!-- TURN INLINE TO BLOCK -->
+    <span class="d-block bg-success">Block</span>
+    
+    <br /><br />
+    
+    <!-- INLINE BLOCK -->
+    <div class="d-inline-block bg-success">
+      <h3>Hello</h3>
+      This is inline
+    </div>
+    
+    <div class="d-inline-block bg-primary">
+      <h3>Hello</h3>
+      This is inline
+    </div>
+    
+    
+  </div>
+  <div style="margin-top: 50px;"></div>
+</body>
+
+</html>
