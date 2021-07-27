@@ -1,0 +1,36 @@
+:root
+{
+  --rect1-color: red;
+  --rect2-color: green;
+  --box-w: 150px;
+  --box-h: 150px;
+}
+
+.box1
+{
+  position: absolute;
+  width: var(--box-w);
+  height: var(--box-h);
+  background: var(--rect1-color);
+}
+
+.box2
+{
+  position: absolute;
+  width: var(--box-w);
+  height: var(--box-h);
+  top: 100px;
+  left: 100px;
+  background: var(--rect2-colr, green);
+}
+
+@media screen and (max-width: 1500px)
+{
+  :root
+  {
+    --rect1-color: black;
+    --rect2-color: blue;
+    --box-w: 150px;
+    --box-h: 150px;
+  }
+}
