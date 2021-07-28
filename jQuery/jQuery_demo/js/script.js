@@ -1,0 +1,1 @@
+$("h1").text("Adachi wa saiko");
