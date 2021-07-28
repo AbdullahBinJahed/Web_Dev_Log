@@ -8,3 +8,8 @@
 - [ ] Bootstrap
 - [ ] JQuery
 - [ ] Tailwind CSS
+- [ ] Sass
+- [ ] Node.js
+- [ ] React
+- [ ] Vue
+- [ ] Angular
