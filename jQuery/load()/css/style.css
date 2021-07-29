@@ -1,0 +1,11 @@
+:root
+{
+  --boxs: 20vw;
+}
+
+#div1
+{
+  width: var(--boxs);
+  height: var(--boxs);
+  background-color: red;
+}

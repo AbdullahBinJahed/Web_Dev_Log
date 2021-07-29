@@ -1,0 +1,11 @@
+:root
+{
+  --boxs: 15vw;
+}
+
+#div2
+{
+  width: var(--boxs);
+  height: var(--boxs);
+  background-color: yellow;
+}
